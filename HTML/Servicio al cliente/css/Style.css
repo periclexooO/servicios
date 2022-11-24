@@ -1,0 +1,174 @@
+div{
+   background-color: transparent;
+   margin: auto;
+   position: relative;
+}
+
+div ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   overflow: hidden; 
+}
+
+div > ul > li{
+   float: left;
+}
+
+div ul li a{
+   text-decoration: none;
+   color: #fff;
+   display: block;
+   padding: 10px 20px;
+}
+
+div ul li a:hover {
+   background-color: white;
+}
+
+div > ul > li:hover div{
+   display: table;
+}
+
+
+div ul li div {
+   width: 600px;
+   position: absolute;
+   left: 0;
+   background: rgba(243, 238, 238, 0.503);
+   box-sizing: border-box;
+   display: none ;
+}
+
+div ul li div ul{
+   width: 30%;
+   display: table-cell;
+   border-right: 1px solid rgba(2, 2, 2, 0.5);
+   box-sizing: border-box;
+}
+
+div ul li div ul:last-child{
+   border: none;
+}
+
+div ul li div ul .titulo{
+   background-color:transparent;
+   color:transparent;  
+}
+
+div ul li div ul .titulo a:hover{
+   background: none;
+}
+
+div ul li div ul li a{
+   color:black; 
+}
+
+.node__content>.title h1 {
+   font-size: 66px;
+   line-height: 1.2;
+   word-wrap: break-word;
+   margin: 0;
+   font-family: "Proxima Nova",Arial,sans-serif;
+   text-align: center;
+   padding-bottom: 0;
+   
+}
+
+
+.paragraph-wrapper {
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden;
+   
+}
+
+h2 {
+   overflow: hidden;
+   white-space: nowrap;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #0091C4;
+   font-size: 40px;
+   line-height: 1.2;
+   color: #111;
+   font-family: "Proxima Nova",Arial,sans-serif;
+   margin: 0 0 15px;
+   line-height: 1.2;
+   
+  }
+
+  
+.container{
+   width: 100%;
+   display: grid;
+   max-width: 850px;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 100px;
+   
+
+   
+}
+.icon{
+   width: 100%;
+   margin: 30px;
+   overflow: hidden;
+   background-color: white;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+   cursor: default;
+   transition: all 400ms ease;
+   
+   
+}
+.icon:hover{
+   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+   transform: translateY(-3%);
+}
+.icon img{
+   width: 100%;
+   height: 200px ;
+
+}
+.icon .contenido-icon{
+   padding: 4%;
+   text-align: center;
+
+}
+.icon .contenido-icon{
+   line-height: 1.5;
+   color: #6a6a6a;
+}
+.icon .contenido-icon h3{
+   font-weight: 400;
+   margin-bottom: 15px;
+}
+.icon .contenido-icon a{
+   text-decoration: none;
+   display: inline-block;
+   padding: 10px;
+   margin-top: 10px;
+   color: #2fb4cc;
+   border-radius: 4px;
+   border-radius: 4px;
+   transition: all 400ms ease;
+
+}
+.icon .contenido-icon a:hover{
+   background: #2fb4cc;
+   color: #fff;
+}
+
+.field-title {
+   font-size: 66px;
+   line-height: 1.2;
+   word-wrap: break-word;
+   margin: 0;
+   font-family: "Proxima Nova",Arial,sans-serif;
+   text-align: center;
+   padding-bottom: 0;
+}
